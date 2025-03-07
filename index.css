@@ -1,0 +1,69 @@
+
+/* Head section design */
+.head{
+    height: 100px; background-color: rgb(3, 3, 67);
+    color: white; top: 0px; left: 0px; position: absolute;
+    width: 100%;
+}
+.head h1{ text-align: center;}
+
+
+/* Menu section design */
+.menu{
+    height: 80px; background-color: rgb(6, 6, 110);
+    color: white; top: 100px; left: 0px; position: absolute;
+    width: 100%;
+}
+.menu ul{text-align: right;}
+.menu ul li{list-style: none; display: inline; padding: 50px;}
+a{text-decoration: none; color: white;}
+a:hover{background-color: rgb(206, 242, 3);}
+
+
+/* lsidebar section design */
+.lsidebar{
+    height: 420px; background-color: rgba(4, 154, 185, 0.881);
+    color: white; top: 180px; left: 0px; position: absolute;
+    width: 30%; text-align: center;
+}
+
+
+/* Content section design */
+.content{
+    height: 420px; background-color: rgb(5, 102, 151);
+    color: white; top: 180px; right: 0px; position: absolute;
+    width: 70%;
+}
+.content h1{ text-align: center;}
+.content img{width: 30%; height: 150px; border-radius: 20px;}
+.content p{text-align: center; font-size: large; font-family: 'Courier New', Courier, monospace;}
+.content label{
+    font-size: 20px; font-family:'Times New Roman', Times, serif; 
+    box-shadow: 3px 3px 5px rgb(2, 13, 109); margin-left: 20px; ;
+            }
+.content input{
+    font-size: 20px; font-family:'Times New Roman', Times, serif; 
+    box-shadow: 3px 3px 5px rgb(2, 13, 109); margin-left: 2px; 
+    margin: 2px 0;
+             }
+
+
+/* Footer section design              */
+.footer{
+    height: 100px; background-color: rgb(3, 3, 67);
+    color: white; top: 600px; left: 0px; position: absolute;
+    width: 60%; text-align: center;
+}
+
+/* Icon Section design */
+.icon{
+    height: 100px; background-color: rgb(15, 15, 78);
+    color: white; top: 600px; right: 0px; position: absolute;
+    width: 40%;
+}
+
+/* Icon Image Section design */
+.icon img {
+    width: 20%; height: 100px; border-radius: 50%; 
+    border: 5px solid #eae4e4; float: right;
+    }
